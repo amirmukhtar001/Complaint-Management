@@ -15,7 +15,7 @@ class ComplaintsFactory extends Factory
     {
         return [
             'user_id' => $this->faker->numberBetween(3, 7),
-            'title' => 'Tech Complaint',
+            'title' => 'IT Complaint',
             'description' => $this->faker->paragraph(1),
             'status' => 'Unassigned Complaints',
         ];
